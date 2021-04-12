@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+
+	<title>Doctors</title>
+	<style>
+		body{
+			background-image: url("im3.jpg");
+		}
+		a:hover{
+		color:red;
+		text-decoration: none;
+		}
+		a:active{
+			color: white;
+			
+		}
+		ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+}
+
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+#logo{
+	float: left;
+	display: block;
+  color: white;
+  font-family: Raleway;
+  text-align: center;
+  padding: 14px 16px;
+}
+li a {
+  display: block;
+  color: white;
+  font-family: Raleway;
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+  text-align: center;
+}
+		#d1{
+			padding-left: 30px;
+			background-color: #f9faf5;
+			margin-left: 30%;
+			margin-top: 5%;
+			margin-right: 30%;
+			line-height: 1.7;
+			border-radius: 20px;
+
+		}
+		.w3-quarter{
+			border-radius: 20px;
+			margin:20px; 
+			background-color: lightgray;
+			float: left;
+			padding: 30px;
+			font-family: 'Montserrat', sans-serif;
+			transition: transform .5s;
+		}
+		.w3-quarter:hover{
+			transform: scale(1.1);
+		}
+		#d1{
+			margin-left: 30px;
+		}
+
+		img{
+			border-radius: 0%;
+			height: 280px;
+			width: 377px;
+		}
+		p{
+			float: right;
+		}
+		button{
+			position: relative;
+			width: 80%;
+			height: 40px;
+			border-radius: 3px;
+			font-size: 15px;
+			font-family: 'Montserrat', sans-serif;
+			background-color: #c9c9c9;
+		}
+		button:hover{
+			background-color: #b9b7b7;
+		}
+		form{
+			background-color: grey;
+		}
+	</style>
+</head>
+<body>
+	<center><i><h1 style="text-shadow: 2px 5px 6px blue;font-size: 50px;font-family: comic Sans ms;">VIRTUAL MEDICAL HOME</h1></i></center>
+<ul>
+	<li><a href="contact.html">Contact Us</a></li>
+	<li><a href="complaint.html">Complaints</a></li>
+	 <li><a href="testimonal.html">Testimonals</a>
+  	<li><a href="doctor.html">Doctors</a></li>
+	<li><a href="login.html">Login</a></li>
+    <li><a href="about.html">About Us</a></li>		
+    <li><a href="medi.html">Home</a></li>
+    <li id="logo">VMH</li>
+
+</ul>
+<h1>Book your appointment with your Doctor!!</h1>
+<form>
+	
+ Date of appointment :
+  <label for="month_start">Month</label>
+  <select id="month_start"
+          name="month_start" />
+    <option>January</option>      
+    <option>February</option>      
+    <option>March</option>      
+    <option>April</option>      
+    <option>May</option>      
+    <option>June</option>      
+    <option>July</option>      
+    <option>August</option>      
+    <option>September</option>      
+    <option>October</option>      
+    <option>November</option>      
+    <option>December</option>      
+  </select> -
+  <label for="day_start">Day</label>
+  <select id="day_start"
+          name="day_start" />
+    <option>1</option>      
+    <option>2</option>      
+    <option>3</option>      
+    <option>4</option>      
+    <option>5</option>      
+    <option>6</option>      
+    <option>7</option>      
+    <option>8</option>      
+    <option>9</option>      
+    <option>10</option>      
+    <option>11</option>      
+    <option>12</option>      
+    <option>13</option>      
+    <option>14</option>      
+    <option>15</option>      
+    <option>16</option>      
+    <option>17</option>      
+    <option>18</option>      
+    <option>19</option>      
+    <option>20</option>      
+    <option>21</option>      
+    <option>22</option>      
+    <option>23</option>      
+    <option>24</option>      
+    <option>25</option>      
+    <option>26</option>      
+    <option>27</option>      
+    <option>28</option>      
+    <option>29</option>      
+    <option>30</option>      
+    <option>31</option>      
+  </select> -
+  <label for="year_start">Year</label>
+  <select id="year_start"
+         name="year_start" />
+    <option>2019</option>      
+    <option>2020</option>     
+  </select>
+  <span class="inst">(Month-Day-Year)</span>
+  <br><br>
+  Time of Appointment :
+    <select id="time"
+          name="time" />
+    <option>10:00 AM</option>      
+    <option>11:00 AM</option>      
+    <option>04:00 PM</option>      
+    <option>05:00 PM</option>      
+    <option>06:00 PM</option>      
+    <option>07:00 PM</option>     
+  </select>
+  <br><br>
+  Subject : <input type="text" name="subject"/>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+											

@@ -1,0 +1,18 @@
+	
+#slide{
+			height: 20px;
+			width: 600px;
+			position:relative;
+		}
+#slide > div { 
+    position: absolute;
+    border:10px solid #333;
+    box-shadow:2px 5px 5px rgb(191,191,191);	
+ 
+     
+}
+#slide > div >img{
+	height:570px;
+	width:1482px;
+}
+        		
