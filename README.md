@@ -5,7 +5,7 @@ A website used to connect doctors and patients via an online medium.
 # Languages used:
 
 Front-end: HTML, CSS, JQuery
-Back-end: PHP, MySQL
+Back-end: PHP, MySQL.
 
 
 
